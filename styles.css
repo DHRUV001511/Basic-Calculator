@@ -1,0 +1,96 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(200, 170, 231);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background: #98e9ed;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 1),
+                8px 8px 16px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    cursor: pointer;
+    margin: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for number buttons */
+.calculator form input:not(.operator):not(.equal):not(.display-input):hover {
+    background-color: #e7e727; /* Yellow */
+    color: white;
+}
+
+/* Hover effect for display input */
+.calculator form .display-input:hover {
+    background-color: #00e204; /* Light green */
+    color: white;
+}
+
+/* Hover effect for operator buttons */
+.calculator form input.operator:hover {
+    background-color: #004cff; /* Blue */
+    color: white;
+}
+
+/* Special styles for AC and DEL buttons */
+.calculator form input[value="AC"],
+.calculator form input[value="DEL"] {
+    background-color: #fe7878; /* Red */
+    color: white;
+}
+
+.calculator form input[value="AC"]:hover,
+.calculator form input[value="DEL"]:hover {
+    background-color: #ff0000; /* Darker red */
+    color: white;
+}
+
+/* Equal button hover effect */
+.calculator form input.equal:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+/* Display input styling */
+.calculator form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+.calculator form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+    padding: 10px;
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #ccc; /* Border for display */
+}
+
+/* Equal button width */
+.calculator form input.equal {
+    width: 145px;
+}
