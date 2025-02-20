@@ -7,3 +7,6 @@ Hey there! 👋 This is a simple yet powerful calculator built for quick and eas
 ✔️ Supports basic arithmetic operations ➕➖✖️➗
 ✔️ Lightweight and fast ⚡
 ✔️ Easy to understand and modify
+
+
+![Image](https://github.com/user-attachments/assets/5c229077-2219-408e-842f-0f90b922d36f)
