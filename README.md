@@ -10,3 +10,5 @@ Hey there! 👋 This is a simple yet powerful calculator built for quick and eas
 
 
 ![Image](https://github.com/user-attachments/assets/5c229077-2219-408e-842f-0f90b922d36f)
+
+![Image](https://github.com/user-attachments/assets/a095c70b-fb9c-4545-b2ba-ba30e5c68f5b)
